@@ -8,7 +8,6 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=8.0",
         "illuminate/support": "v8.83.27|v9.52.16|v10.33.0",
         "illuminate/session": "v8.83.27|v9.52.16|v10.33.0",
         "illuminate/events": "v8.83.27|v9.52.16|v10.33.0",
@@ -35,7 +34,6 @@
             "email": "giovanni@logicalcrow.com"
         }
     ],
-    "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
@@ -45,6 +43,7 @@
                 "Cart": "Logicalcrow\\ShoppingCart\\Facades\\Cart"
             }
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
 
