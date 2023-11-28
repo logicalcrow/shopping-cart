@@ -7,6 +7,12 @@
         "ShoppingCart"
     ],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Giovani Cespedes",
+            "email": "giovanni@logicalcrow.com"
+        }
+    ],
     "require": {
         "illuminate/support": "v8.83.27|v9.52.16|v10.33.0",
         "illuminate/session": "v8.83.27|v9.52.16|v10.33.0",
@@ -25,15 +31,9 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Logicalcrow\\ShoppingCart\\Test\\": "test/"
+            "Logicalcrow\\ShoppingCart\\Tests\\": "tests"
         }
     },
-    "authors": [
-        {
-            "name": "Giovani Cespedes",
-            "email": "giovanni@logicalcrow.com"
-        }
-    ],
     "extra": {
         "laravel": {
             "providers": [
