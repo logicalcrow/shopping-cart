@@ -570,7 +570,7 @@ By default the package will use the default database connection and use a table 
 
 To make your life easy, the package also includes a ready to use `migration` which you can publish by running:
 
-    php artisan vendor:publish --provider="Logicalcrow\ShoppingCart\ShoppingcartServiceProvider" --tag="migrations"
+    php artisan vendor:publish --provider="Logicalcrow\ShoppingCart\ShoppingCartServiceProvider" --tag="migrations"
     
 This will place a `ShoppingCart` table's migration file into `database/migrations` directory. Now all you have to do is run `php artisan migrate` to migrate your database.
 
