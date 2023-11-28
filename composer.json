@@ -1,0 +1,50 @@
+{
+    "name": "logicalcrow/shopping-cart",
+    "description": "Laravel ShoppingCart",
+    "keywords": [
+        "laravel",
+        "Shopping",
+        "ShoppingCart"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "v8.83.27|v9.52.16|v10.33.0",
+        "illuminate/session": "v8.83.27|v9.52.16|v10.33.0",
+        "illuminate/events": "v8.83.27|v9.52.16|v10.33.0",
+        "nesbot/carbon": "2.71.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.4.2",
+        "mockery/mockery": "1.6.6",
+        "orchestra/testbench": "v8.15.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Logicalcrow\\ShoppingCart\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Logicalcrow\\ShoppingCart\\Test\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giovani Cespedes",
+            "email": "giovanni@logicalcrow.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Logicalcrow\\ShoppingCart\\ShoppingCartServiceProvider"
+            ],
+            "aliases": {
+                "Cart": "Logicalcrow\\ShoppingCart\\Facades\\Cart"
+            }
+        }
+    }
+}
+
