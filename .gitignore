@@ -1,4 +1,6 @@
 /vendor
+.idea
+composer-setup.php
 composer.phar
 composer.lock
 .phpunit-watcher-cache.php
